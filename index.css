@@ -1,0 +1,121 @@
+.img{
+    height: 250px;
+    width: 250px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+.btn-container{
+ display: flex;
+ justify-content: center;
+ margin-top: 20px;
+ margin-bottom: 30px;
+}
+.btn{
+    padding: 5px;
+    margin: 10px;
+    height: 40px;
+    width: 100px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color:white;
+}
+.btn:hover{
+    background-color: #ffcc99;
+    color: white;
+}
+.heading{
+    color: white;
+    top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Inter;
+    text-align: center;
+}
+
+.product-name{
+    font-size: 22px; 
+    font-family: Inter;
+    height: 30px;
+    width: 240px;
+    overflow: hidden;
+    padding-left: 10px;
+}
+.brand{
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: bold;
+}
+.price{
+    font-size: 18px;
+    font-family: Inter;
+    text-decoration: underline;
+}
+.div-container{
+    margin: 20px;
+    width:250px;
+    background-color: white;
+    border-radius: 14px;
+}
+.bg-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cart{
+    margin-left: 25px;
+    text-align: center;
+    border-radius: 12px;
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    background-color:  #b35900;
+    margin-bottom: 20px;
+}
+.top-container{
+    
+    width: 100%;
+    border-radius: 16px;
+    padding-top: 20px;
+}
+.price-container{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.show-product-men{
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: center;
+}
+
+.show-product-women{
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: center;
+}
+
+.show-product-kid{
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: center;
+}
+.display{
+    display: none;
+}
